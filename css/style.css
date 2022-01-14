@@ -43,11 +43,11 @@ nav i {
 .section1 {
   width: 70%;
   height: 550px;
-  border: 1px solid;
   margin: auto;
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
 }
 .text1 {
   width: 100%;
@@ -59,11 +59,13 @@ nav i {
   font-size: 52px;
   width: 582px;
   height: 133px;
+  margin-bottom: 15px;
 }
 .text1 p {
   width: 505px;
   height: 60.9px;
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .image1 {
@@ -87,4 +89,96 @@ nav i {
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+.section2 {
+  width: 70%;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+  border-top: 0.1px solid;
+  border-bottom: 0.1px solid;
+  border-color: whitesmoke;
+}
+
+.section3 {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.sec3title {
+  text-align: center;
+  font-size: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-bottom: 70px;
+}
+.product {
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  display: grid;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  padding: 10px;
+}
+.productname {
+  width: 151px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #18191f;
+}
+.price {
+  height: 36px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+.shortdescription {
+  width: 197px;
+  height: 61px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.018em;
+  color: #787885;
+}
+.rating i {
+  color: orange;
+  font-weight: bold;
+}
+.rating {
+  font-weight: bold;
+}
+.seemore {
+  display: grid;
+  justify-content: end;
+  text-decoration: none;
+}
+.seemore a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #e02c6d;
+  margin-left: -125px;
 }
