@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Rubik", sans-serif;
   font-family: "Spline Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Header Style */
@@ -276,7 +277,7 @@ footer img {
 
 /* Responsive Css For Mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   /* Header For Mobile */
   header {
     background-color: white;
@@ -304,15 +305,17 @@ footer img {
     margin-right: auto;
   }
   nav a {
-    margin-right: 12px;
-    margin-left: 12px;
+    margin-right: 5px;
+    font-size: 1rem;
+    margin-left: 10px;
     text-decoration: none;
     font-weight: 700;
     color: black;
   }
   nav i {
     color: black;
-    margin-right: 25px;
+    margin-right: 5px;
+    margin-left: 10px;
   }
 
   /* Section--------------  1----------
@@ -349,7 +352,7 @@ footer img {
     width: 90%;
     height: 60.9px;
     font-size: 18px;
-    margin-bottom: 85px;
+    margin-bottom: 105px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -360,6 +363,7 @@ footer img {
     height: 100%;
     display: grid;
     order: 1;
+    justify-content: center;
   }
   .image1 img {
     width: 80%;
@@ -561,7 +565,7 @@ footer img {
 }
 
 /* Responsive Design For Teblet */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   /* Header For Teblet */
   header {
     background-color: white;
@@ -606,9 +610,8 @@ footer img {
     width: 90%;
     height: 550px;
     margin: auto;
-    display: grid;
+    display: flex;
     justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
   }
   .text1 {
@@ -618,16 +621,16 @@ footer img {
     align-content: center;
   }
   .text1 h1 {
-    font-size: 42px;
-    width: 582px;
-    height: 133px;
-    margin-bottom: 15px;
+    font-size: 32px;
+    width: 450px;
+    height: 103px;
+    margin-bottom: 1px;
   }
   .text1 p {
-    width: 505px;
-    height: 60.9px;
+    width: 70%;
+    height: 70.9px;
     font-size: 18px;
-    margin-bottom: 35px;
+    margin-bottom: 85px;
   }
 
   .image1 {
@@ -636,7 +639,8 @@ footer img {
   }
 
   .image1 img {
-    width: 200%;
+    width: 100%;
+    margin-right: -250px;
     transition: transform 0.6s;
   }
   .image1 img:hover {
@@ -771,7 +775,7 @@ footer img {
   /* Section--------------  4----------
 ------------------------------------- Style  */
   .section4 {
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: 300px;
     border: 1px;
@@ -783,7 +787,7 @@ footer img {
     background-color: aliceblue;
   }
   .section4 h1 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 25px;
   }
   .subscribe {
